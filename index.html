@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,84 +12,128 @@
 
     <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.min.css">
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/wallmarks-style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-    <script type="application/javascript" src="libs/jquery/jquery-3.2.1.js"></script>
+    <script type="application/javascript" src="libs/jquery/jquery.min.js"></script>
     <script type="application/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
     <script type="application/javascript" src="libs/bootstrap/popper.js-1.12.5/popper.js"></script>
     <script type="application/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
 
-</head>
-<body>
-<div class="container-fluid container-fluid-padding">
-    <ul class="nav top-nav-bar">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/contact-us/">Contact Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">INDIA: (+91) – 9743056173</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">INDIA: (+91) – 9743056173</a>
-        </li>
-        <li class="nav-item facebook">
-            <a class="nav-link" href="https://www.facebook.com" data-tip="bottom" data-original-title="Facebook"
-               target="_blank">
-                <i class="fa fa-facebook"></i>
-            </a>
-        </li>
-        <li class="nav-item twitter">
-            <a class="nav-link" href="https://twitter.com" data-tip="bottom" data-original-title="Twitter"
-               target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-        </li>
-        <li class="nav-item google-plus">
-            <a class="nav-link" href="https://plus.google.com" data-tip="bottom" data-original-title="Google+"
-               target="_blank">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </li>
-        <li class="nav-item linkedin">
-            <a class="nav-link" href="https://www.linkedin.com" data-tip="bottom" data-original-title="LinkedIn"
-               target="_blank"><i class="fa fa-linkedin"></i>
-            </a>
-        </li>
-        <li class="nav-item youtube">
-            <a class="nav-link" href="https://www.youtube.com" data-tip="bottom" data-original-title="YouTube"
-               target="_blank">
-                <i class="fa fa-youtube"></i>
-            </a>
-        </li>
-    </ul>
+    <!-- Modernizr javascript -->
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script type="text/javascript" src="js/sticky.min.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light navbar-customs">
-        <a class="navbar-brand" style="padding:0px !important;" href="#">
-            <img src="images/wmbrand.jpg" width="56%" height="100%" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">CURTAINS</a>
-                <a class="nav-item nav-link" href="#">UPHOLSTERY</a>
-                <a class="nav-item nav-link" href="#">WALLPAPERS</a>
-                <a class="nav-item nav-link" href="#">CARPETS</a>
-                <a class="nav-item nav-link" href="#">FLOORINGS</a>
-                <a class="nav-item nav-link" href="#">MATTRESSES</a>
-                <a class="nav-item nav-link" href="#">HARDWARE</a>
-                <a class="nav-item nav-link" href="#">BED&BATH</a>
-                <a class="nav-item nav-link" href="#">BLINDS</a>
-                <a class="nav-item nav-link" href="#">ACCESSORIES</a>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <div class="header-container">
+            <div class="header-top dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 col-sm-6 col-lg-12">
+                            <div class="header-top-first clearfix">
+                                <ul class="social-links circle small clearfix hidden-sm-down">
+                                    <li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="googleplus"><a target="_blank" href="http://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="youtube"><a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube-play"></i></a></li>
+                                </ul>
+                                <div class="social-links hidden-md-up circle small">
+                                    <div class="btn-group dropdown">
+                                        <button id="header-top-drop-1" type="button" class="btn dropdown-toggle dropdown-toggle--no-caret" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-alt"></i></button>
+                                        <ul class="dropdown-menu dropdown-animation" aria-labelledby="header-top-drop-1">
+                                            <li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="twitter"><a target="_blank" href="http://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="googleplus"><a target="_blank" href="http://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="youtube"><a target="_blank" href="http://www.youtube.com/"><i class="fa fa-youtube-play"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <ul class="list-inline hidden-md-down pull-right">
+                                    <!--<li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 9743056173</li>-->
+                                    <li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 99020 33964</li>
+                                    <li class="list-inline-item"><i class="fa fa-envelope-o pr-1 pl-2"></i> support@wallmarks.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
+            <header class="header fixed fixed-desktop clearfix transparent-header-on ">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-auto hidden-md-down pl-3 ">
+                            <div class="header-first clearfix ">
+                                <div id="logo " class="logo ">
+                                    <a href="#"><img id="logo_img " src="images/wmbrand.jpg" alt="wmbrand.log"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-xl-9 ">
+                            <div class="header-second clearfix ">
+                                <div class="main-navigation animated ">
+                                    <nav class="navbar navbar-toggleable-md navbar-light p-0 ">
+                                        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                                        <div class="navbar-brand clearfix hidden-lg-up">
+                                            <div id="logo-mobile" class="logo">
+                                                <a href="#"><img id="logo_img " src="images/wmbrand.jpg" alt="wmbrand.log"></a>
+                                            </div>
+                                        </div>
+                                        <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="">
+                                            <ul class="navbar-nav ml-xl-auto">
+                                                <li class="nav-item active mega-menu mega-menu--wide">
+                                                    <a href="#" class="nav-link">Curtains</a>
+                                                </li>
+                                                <li class="nav-item dropdown mega-menu mega-menu--wide">
+                                                    <a href="#" class="nav-link">Upholstery</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Wallpapers</a>
+                                                </li>
+                                                <li class="nav-item dropdown mega-menu mega-menu--narrow">
+                                                    <a href="#" class="nav-link">Carpets</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Floorings</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Mattresses</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Hardware</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Bed&Bath</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Blinds</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a href="#" class="nav-link">Accessories</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </div>
-    </nav>
+    </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -111,7 +156,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <br><br>
+    <br>
     <!-- testimonials section-->
     <div class="container">
 
@@ -119,17 +164,12 @@
 
         <div class="row" style="margin-top: 1rem">
             <div class="col-lg-3" style="text-align: center;vertical-align: middle">
-                <img src="images/img.jpg" class="rounded-circle img-thumbnail" width="56%" height="100%">
+                <img src="images/7.jpg" class="rounded-circle img-thumbnail" width="285px" height="225px">
             </div>
             <div class="col-lg-9">
-                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;We found OfficeTimer among a list of Online Time Tracking
-                    Software recommended by BDC. This is the
-                    best tracking system with everything we have been looking for. Thank you for exceeding our
-                    expectations! We have so far been very impressed with the service and help offered by OfficeTimer
-                    and we would like to express our gratitude for the excellent service we have received from their
-                    team. Thank you so much for your outstanding professional service and support! We would have no
-                    hesitation recommending OfficeTimer. This is a must for professional services firms and
-                    project-based businesses.</p>
+                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;We found OfficeTimer among a list of Online Time Tracking Software recommended by BDC. This is the best tracking system with everything we have been looking for. Thank you for exceeding our expectations!
+                    We have so far been very impressed with the service and help offered by OfficeTimer and we would like to express our gratitude for the excellent service we have received from their team. Thank you so much for your outstanding professional
+                    service and support! We would have no hesitation recommending OfficeTimer. This is a must for professional services firms and project-based businesses.</p>
             </div>
 
         </div>
@@ -138,16 +178,13 @@
 
         <div class="row" style="margin-top: 1rem">
             <div class="col-lg-9">
-                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;Our needs for a timesheet software were elaborate and we
-                    evaluated multiple products in this space.
-                    OfficeTimer had a lot of depth in their solution that other products could not provide even at a
-                    significant cost. Their team has also been very responsive in supporting our needs. We are currently
-                    in the process of using OfficeTimer for our expense tracking as well. OfficeTimer timesheet software
-                    is an integral part of our daily routine and we are very happy to have found a tool that works for
-                    us.</p>
+                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;Our needs for a timesheet software were elaborate and we evaluated multiple products in this space. OfficeTimer had a lot of depth in their solution that other products could not provide even
+                    at a significant cost. Their team has also been very responsive in supporting our needs. We are currently in the process of using OfficeTimer for our expense tracking as well. OfficeTimer timesheet software is an integral part of our
+                    daily routine and we are very happy to have found a tool that works for us.
+                </p>
             </div>
             <div class="col-lg-3" style="text-align: center;vertical-align: middle">
-                <img src="images/img.jpg" class="rounded-circle img-thumbnail" width="56%" height="100%">
+                <img src="images/8.jpg" class="rounded-circle img-thumbnail" width="56%" height="100%">
             </div>
         </div>
 
@@ -155,16 +192,12 @@
 
         <div class="row" style="margin-top: 1rem">
             <div class="col-lg-3" style="text-align: center;vertical-align: middle">
-                <img src="images/img.jpg" class="rounded-circle img-thumbnail" width="56%" height="100%">
+                <img src="images/9.jpg" class="rounded-circle img-thumbnail" width="56%" height="100%">
             </div>
             <div class="col-lg-9">
-                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;Officetimer has proved to be a very useful and essential
-                    software for us and has eased our office
-                    management routines. By automating the timesheet, leave and expense approvals of 250+ of our staff,
-                    the hours spent in manually submitting and tracking has been completely eliminated, thus brining in
-                    efficiency and orderliness to our project process. With right pricing and great support from the
-                    Officetimer team, we firmly believe we made the best choice choice among online timesheet and
-                    project management softwares.</p>
+                <p><i class="fa fa-quote-left"></i>&nbsp;&nbsp;Officetimer has proved to be a very useful and essential software for us and has eased our office management routines. By automating the timesheet, leave and expense approvals of 250+ of our
+                    staff, the hours spent in manually submitting and tracking has been completely eliminated, thus brining in efficiency and orderliness to our project process. With right pricing and great support from the Officetimer team, we firmly
+                    believe we made the best choice choice among online timesheet and project management softwares.</p>
             </div>
         </div>
         <hr class="mb-3 mt-2 pb-3">
@@ -174,52 +207,51 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h5>LOCATION</h5>
-                    <p>
-                        KC Fabrics
-                        7, Sahar Cargo Estate, Near Tarun Bharat Society, Chakala, Andheri (E),
-                        Mumbai - 400099, Maharashtra, India<br>
-                        <i class="fa fa-phone"></i> : +91-22-40736666<br>
-                        <i class="fa fa-fax"></i> : +91-22-4073 6665<br>
-                        <i class="fa fa-envelope"></i> : info@kcfabrics.com<br>
-                        <i class="fa fa-globe"></i> Web: www.kcfabrics.com
-                    </p>
-                    <iframe src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK&zoom=17&key=AIzaSyCECioPqTNTMYXivMhwnVo98npmaDODlF8">
-                    </iframe>
+                    <h6>LOCATION</h6>
+                    <div id="map" style="width:300px;height:300px;background:yellow"></div>
                 </div>
                 <div class="col-lg-4">
-                    <h5>LOCATION</h5>
+                    <h6>ADDRESS</h6>
                     <p>
-                        KC Fabrics
-                        7, Sahar Cargo Estate, Near Tarun Bharat Society, Chakala, Andheri (E),
-                        Mumbai - 400099, Maharashtra, India<br>
-                        <i class="fa fa-phone"></i> : +91-22-40736666<br>
-                        <i class="fa fa-fax"></i> : +91-22-4073 6665<br>
-                        <i class="fa fa-envelope"></i> : info@kcfabrics.com<br>
-                        <i class="fa fa-globe"></i> Web: www.kcfabrics.com
+                        #856, Vinayaka Layout, Nagarabhavi 2nd Stage, 80ft Road. Nagarabhavi., Bengaluru, Karnataka 560072<br>
+                        <i class="fa fa-phone"></i> : +91-99020 33964<br>
+                        <i class="fa fa-fax"></i> : +91-99020 33964<br>
+                        <i class="fa fa-envelope"></i> : info@wallmarks.com<br>
+                        <i class="fa fa-globe"></i> Web: www.wallmarks.com
                     </p>
-                    <iframe class="maps-frame" src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK;zoom=17;key=AIzaSyD4iE2xVSpkLLOXoyqT-RuPwURN3ddScAI" allowfullscreen="true">
-                    </iframe>
+                    <!--<iframe class="maps-frame" src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK;zoom=17;key=AIzaSyD4iE2xVSpkLLOXoyqT-RuPwURN3ddScAI" allowfullscreen="true">
+                    </iframe>-->
                 </div>
                 <div class="col-lg-4">
                     <h6>QUICK LINKS</h6>
                     <ul>
-                        <li>Curtains</li>
-                        <li>Upholstery</li>
-                        <li>Wallpapers</li>
-                        <li>Carpets</li>
-                        <li>Floorings</li>
-                        <li>Mattresses</li>
-                        <li>Hardware</li>
-                        <li>Bed & bath</li>
-                        <li>Blinds</li>
-                        <li>Accessories</li>
+                        <li><a href="#">Curtains</a></li>
+                        <li><a href="#">Upholstery</a></li>
+                        <li><a href="#">Wallpapers</a></li>
+                        <li><a href="#">Carpets</a></li>
+                        <li><a href="#">Floorings</a></li>
+                        <li><a href="#">Mattresses</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Bed & bath</a></li>
+                        <li><a href="#">Blinds</a></li>
+                        <li><a href="#">Accessories</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2),
+                zoom: 10
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+    </script>
 
-</div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
+
 </html>

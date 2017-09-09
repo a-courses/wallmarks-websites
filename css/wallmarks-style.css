@@ -1,7 +1,11 @@
-
 .container-fluid-padding {
     padding-right: 0px !important;
     padding-left: 0px !important;
+}
+
+.header-container-first {
+    background-color: #03465B;
+    height: 45px;
 }
 
 .nav li a {
@@ -12,10 +16,16 @@
     color: #FFFFFF;
 }
 
+.logo {
+    width: 155px;
+    height: 40px;
+}
+
 .top-nav-bar {
-    background-color: #03465B;
     color: #FFFFFF;
     font-size: small;
+    padding: 5px;
+    background-color: #03465B;
 }
 
 .navbar-customs {
@@ -31,30 +41,46 @@
 
 li.facebook a:hover {
     background: #3b5997;
+    border-radius: 20px;
 }
 
 li.twitter a:hover {
     background: #a5dee8;
+    border-radius: 20px;
 }
 
 li.google-plus a:hover {
     background: #db4a39;
+    border-radius: 20px;
 }
 
 li.linkedin a:hover {
     background: #56a1c4;
+    border-radius: 20px;
 }
 
 li.youtube a:hover {
     background: #de1f26;
+    border-radius: 20px;
 }
 
 #myFooter {
     background-color: #f7f7f7;
-    color:#000000;
+    color: #000000;
     margin-top: 5px;
     /*border-top: 1px solid #03465B;*/
-    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .8);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .8);
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 400px !important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
 }
