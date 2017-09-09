@@ -48,3 +48,13 @@ li.linkedin a:hover {
 li.youtube a:hover {
     background: #de1f26;
 }
+
+#myFooter {
+    background-color: #f7f7f7;
+    color:#000000;
+    margin-top: 5px;
+    /*border-top: 1px solid #03465B;*/
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.8);
+}
