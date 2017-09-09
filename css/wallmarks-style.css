@@ -4,11 +4,11 @@
     padding-left: 0px !important;
 }
 
-li a {
+.nav li a {
     color: #FFFFFF;
 }
 
-li a:hover {
+.nav li a:hover {
     color: #FFFFFF;
 }
 
@@ -18,7 +18,7 @@ li a:hover {
     font-size: small;
 }
 
-.navbar-padding {
+.navbar-customs {
     padding: 0px !important;
     line-height: 1 !important;
     margin: 0px !important;
@@ -26,6 +26,7 @@ li a:hover {
      border-bottom: 1px solid #03465B;  */
     border-top: 1px solid #678F94;
     border-bottom: 1px solid #678F94;
+    color: #03465B !important;
 }
 
 li.facebook a:hover {
