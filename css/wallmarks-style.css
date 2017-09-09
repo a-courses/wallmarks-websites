@@ -4,12 +4,46 @@
     padding-left: 0px !important;
 }
 
+li a {
+    color: #FFFFFF;
+}
+
+li a:hover {
+    color: #FFFFFF;
+}
+
+.top-nav-bar {
+    background-color: #03465B;
+    color: #FFFFFF;
+    font-size: small;
+}
+
 .navbar-padding {
     padding: 0px !important;
     line-height: 1 !important;
     margin: 0px !important;
-   /* border-top: 1px solid #03465B;
-    border-bottom: 1px solid #03465B;  */
+    /* border-top: 1px solid #03465B;
+     border-bottom: 1px solid #03465B;  */
     border-top: 1px solid #678F94;
     border-bottom: 1px solid #678F94;
+}
+
+li.facebook a:hover {
+    background: #3b5997;
+}
+
+li.twitter a:hover {
+    background: #a5dee8;
+}
+
+li.google-plus a:hover {
+    background: #db4a39;
+}
+
+li.linkedin a:hover {
+    background: #56a1c4;
+}
+
+li.youtube a:hover {
+    background: #de1f26;
 }
