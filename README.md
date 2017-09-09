@@ -8,8 +8,6 @@ https://www.officetimer.com/
 
 http://www.floatingwalls.in/
 
-Top menu & Sub menu - Fixed
-
 https://www.ddecor.com/
 
 http://www.kcfabrics.com/IndexMain.aspx
