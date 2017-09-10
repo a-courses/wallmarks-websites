@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 9]> <html lang="zxx" class="ie9"> <![endif]-->
+<!--[if gt IE 9]> <html lang="zxx" class="ie"> <![endif]-->
+<!--[if !IE]><!-->
+<html dir="ltr" lang="zxx">
+<!--<![endif]-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="wallmarks">
     <meta name="keywords" content="wallmarks">
-    <link rel="canonical" href="https://www.wallmarks.com/">
-
     <title>Wallmarks - Furnitures</title>
-
-    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="canonical" href="https://www.wallmarks.com/">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs\owlcarousel2\assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs\owlcarousel2\assets/owl.theme.default.min.css">
+    <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/wallmarks-style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
 
     <script type="application/javascript" src="libs/jquery/jquery.min.js"></script>
-    <script type="application/javascript" src="libs/jquery-ui/jquery-ui.min.js"></script>
-    <script type="application/javascript" src="libs/bootstrap/popper.js-1.12.5/popper.js"></script>
     <script type="application/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Modernizr javascript -->
     <script type="text/javascript" src="js/modernizr.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="js/sticky.min.js"></script>
+    <script type="application/javascript" src="libs/owlcarousel2/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/template.js"></script>
-
+    <script type="text/javascript" src="js/tether.min.js"></script>
 </head>
+
+<!-- body classes:  -->
+<!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
+<!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
+<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
+<!-- "gradient-background-header": applies gradient background to header -->
+<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
 
 <body>
 
@@ -37,7 +45,7 @@
             <div class="header-top dark">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3 col-sm-6 col-lg-12">
+                        <div class="col-3 col-sm-6 col-lg-3">
                             <div class="header-top-first clearfix">
                                 <ul class="social-links circle small clearfix hidden-sm-down">
                                     <li class="facebook"><a target="_blank" href="http://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
@@ -58,14 +66,25 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <ul class="list-inline hidden-md-down pull-right">
-                                    <!--<li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 9743056173</li>-->
-                                    <li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 99020 33964</li>
-                                    <li class="list-inline-item"><i class="fa fa-envelope-o pr-1 pl-2"></i> support@wallmarks.com</li>
-                                </ul>
+
                             </div>
                         </div>
-
+                        <div class="col-9 col-sm-6 col-lg-9">
+                            <div id="header-top-second" class="clearfix">
+                                <div class="header-top-dropdown text-right">
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-default btn-sm">About Us</a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-default btn-sm"> Contact US</a>
+                                    </div>
+                                    <ul class="list-inline hidden-md-down pull-right">
+                                        <li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 9743056173</li>
+                                        <li class="list-inline-item"><i class="fa fa-phone pr-1 pl-2"></i>INDIA: (+91) – 99020 33964</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,6 +176,122 @@
         </a>
     </div>
     <br>
+    <section class="pv-30 light-gray-bg padding-bottom-clear">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mt-4">Our <strong>Products</strong></h2>
+                    <div class="separator"></div>
+                    <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="space-bottom">
+            <div class="owl-carousel carousel">
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/7.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Curtains</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/8.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Uphostry</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/9.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Bed Sheet</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="owl-carousel carousel">
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/7.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Curtains</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/8.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Uphostry</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-box shadow text-center">
+                    <div class="overlay-container">
+                        <img src="images/9.jpg" alt="">
+                        <div class="overlay-top">
+                            <div class="text">
+                                <h3><a href="portfolio-item.html">Bed Sheet</a></h3>
+                                <p class="small">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="links">
+                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <!-- testimonials section-->
     <div class="container">
 
@@ -240,18 +375,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function myMap() {
-            var mapCanvas = document.getElementById("map");
-            var mapOptions = {
-                center: new google.maps.LatLng(51.5, -0.2),
-                zoom: 10
-            };
-            var map = new google.maps.Map(mapCanvas, mapOptions);
-        }
-    </script>
-
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
 
 </html>
