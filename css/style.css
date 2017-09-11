@@ -4747,6 +4747,7 @@ fieldset[disabled] .form-control {
     display: block;
     text-align: center;
     overflow: hidden;
+    height: 200px;
 }
 
 .overlay-bottom,
@@ -5576,7 +5577,7 @@ fieldset[disabled] .form-control {
 
 .header .navbar-nav li .nav-link {
     color: #333333;
-    font-size: 16px;
+    font-size: 14px;
     z-index: 102;
     border: none;
     border-bottom: 1px solid transparent;
