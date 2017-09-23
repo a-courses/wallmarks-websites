@@ -6146,7 +6146,7 @@ header .container-fluid .animated.main-navigation .dropdown-menu .show .dropdown
 }
 
 .dark .navbar .navbar-toggler .navbar-toggler-icon {
-    background-image: none;
+    /*background-image: none;*/
     position: relative;
     font-weight: 300;
     text-align: center;
