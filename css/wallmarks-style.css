@@ -86,7 +86,6 @@ li.youtube a:hover {
     width: 150px;
 }
 
-
 /* Animation Photo Section */
 
 .photo-grid {
@@ -193,7 +192,30 @@ li.youtube a:hover {
     z-index: 100;
 }
 
-.custom-footer-color{
+.custom-footer-color {
     background-color: #04607c;
+    color: #FFFFFF;
+}
+
+.list-link {
+    list-style: none;
+    padding-left: 10px!important;
+}
+
+.list-link li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.list-link li a {
+    display: inline-block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
     color: #FFFFFF;
 }
