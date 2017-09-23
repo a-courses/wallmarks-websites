@@ -1,3 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*font-family: 'Oxygen', sans-serif;*/
+}
+
 body.canvas-sliding,
 body.canvas-slid {
     overflow-x: hidden;
@@ -151,7 +158,7 @@ tbody {
 }
 
 .header-top:not(.banner) {
-    background-color: #04607c;
+    background-color: #000000;
     padding: 4px 0;
 }
 
@@ -249,7 +256,7 @@ tbody {
 
 .footer {
     padding: 40px 0;
-    background-color: #fafafa;
+    background-color: #04607c;
 }
 
 .footer-content {

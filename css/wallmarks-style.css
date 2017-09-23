@@ -192,3 +192,8 @@ li.youtube a:hover {
     transition-delay: 100ms;
     z-index: 100;
 }
+
+.custom-footer-color{
+    background-color: #04607c;
+    color: #FFFFFF;
+}
