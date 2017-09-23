@@ -5675,10 +5675,11 @@ fieldset[disabled] .form-control {
 
 @media (min-width: 1200px) {
     .header .navbar-nav>li {
-        margin: 0 0 0 10;
+        margin: auto;
+        white-space: nowrap;
     }
     .header .navbar-nav>li:first-child {
-        margin: 0;
+        margin: auto;
     }
 }
 
@@ -5886,7 +5887,7 @@ fieldset[disabled] .form-control {
 
 @media (min-width: 1200px) {
     .main-navigation .navbar-nav>li:first-child {
-        margin: 0;
+        margin: auto;
     }
     .container .col-md-auto+.col-lg-8 .mega-menu--wide .dropdown-menu {
         left: -166px !important;
