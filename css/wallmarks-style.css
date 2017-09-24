@@ -99,7 +99,7 @@ li.youtube a:hover {
 .photo-grid li {
     /*border: 5px solid #04607c;*/
     display: inline-block;
-    margin: 5px 15px 5px 5px;
+    margin: 15px;
     /*width: 300px;*/
 }
 
