@@ -86,7 +86,6 @@ li.youtube a:hover {
     width: 150px;
 }
 
-
 /* Animation Photo Section */
 
 .photo-grid {
@@ -213,7 +212,7 @@ li.youtube a:hover {
 
 .list-link {
     list-style: none;
-    padding-left: 10px!important;
+    padding-left: 10px !important;
 }
 
 .list-link li {
@@ -269,4 +268,11 @@ li.youtube a:hover {
 .fancy span:after {
     left: 100%;
     margin-left: 15px;
+}
+
+.footer-link-heading {
+    border-bottom: 2px solid #FFFFFF;
+    margin-right: 50px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
 }
