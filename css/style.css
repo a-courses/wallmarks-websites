@@ -159,7 +159,7 @@ tbody {
 
 .header-top:not(.banner) {
     background-color: #000000;
-    padding: 4px 0;
+    padding: 2px 0;
 }
 
 .header {
@@ -2769,7 +2769,7 @@ h5+.separator {
 
 .nav-tabs.style-1>li>a {
     position: relative;
-    color: #333333;
+    color: #000000;
     margin-right: 0;
     line-height: 1;
     border: 1px solid transparent;
