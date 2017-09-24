@@ -99,8 +99,16 @@ li.youtube a:hover {
 .photo-grid li {
     /*border: 5px solid #04607c;*/
     display: inline-block;
-    margin: 15px;
+    margin: 5px 15px 30px;
     /*width: 300px;*/
+}
+
+.photo-grid li:first-child {
+    margin-left: 0;
+}
+
+.photo-grid li:last-child {
+    margin-right: 0;
 }
 
 .photo-grid img {
