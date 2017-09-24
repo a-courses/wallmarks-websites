@@ -292,6 +292,9 @@ tbody {
     .header.centered .header-first {
         padding: 12px 0;
     }
+    .testimonial-icon {
+        top: 26px;
+    }
 }
 
 
@@ -417,6 +420,9 @@ tbody {
 @media (min-width: 768px) {
     .boxed .page-wrapper {
         width: 750px;
+    }
+    .testimonial-icon {
+        top: 26px;
     }
 }
 

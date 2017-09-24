@@ -270,3 +270,39 @@ li.youtube a:hover {
     left: 100%;
     margin-left: 15px;
 }
+
+.testimonial-icon {
+    display: inline-block;
+    width: 5%;
+    top: -2px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+
+/* Media screen Support CSS Styles */
+
+@media (max-width: 575px) {
+    .testimonial-icon {
+        top: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .testimonial-icon {
+        top: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial-icon {
+        top: -2px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .boxed .page-wrapper {
+        top: -2px;
+    }
+}
