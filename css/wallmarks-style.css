@@ -86,6 +86,7 @@ li.youtube a:hover {
     width: 150px;
 }
 
+
 /* Animation Photo Section */
 
 .photo-grid {
@@ -286,6 +287,33 @@ li.youtube a:hover {
     border-radius: 50%;
 }
 
+.image-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+
+.active-tab {
+    background-color: #ffffff;
+    border-bottom-color: #ffffff;
+    border-right: 1px solid #f5f5f5;
+    border-left: 1px solid #f5f5f5;
+    z-index: 106;
+    color: #04607c !important;
+    font-weight: 600;
+}
+
+.active-tab a {
+    color: #04607c !important;
+}
+
+.heading-page {
+    border-bottom: 1px solid #04607c;
+    padding: 5px;
+    color: #04607c;
+    /*box-shadow: 0px 2px 0px #04607c;*/
+}
+
+
 /* Media screen Support CSS Styles */
 
 @media (max-width: 575px) {
@@ -311,7 +339,6 @@ li.youtube a:hover {
         top: -2px;
     }
 }
-
 
 .carousel-item.active,
 .carousel-item-next,
