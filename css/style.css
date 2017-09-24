@@ -8978,9 +8978,3 @@ h6.media-heading {
 
 
 /*# sourceMappingURL=style.css.map */
-
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
-    display: block;
-}
