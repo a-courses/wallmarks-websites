@@ -200,6 +200,7 @@ li.youtube a:hover {
 .custom-footer-color {
     background-color: #04607c;
     color: #FFFFFF;
+    padding-bottom: 10px !important;
 }
 
 .list-link {
