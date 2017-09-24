@@ -234,6 +234,8 @@ li.youtube a:hover {
 .fancy {
     line-height: 0.5;
     text-align: center;
+    width: 100%;
+
 }
 
 .fancy span {
@@ -249,7 +251,7 @@ li.youtube a:hover {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     top: 50%;
-    width: 600px;
+    width: 400px;
 }
 
 .fancy span:before {
