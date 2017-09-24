@@ -223,7 +223,12 @@ li.youtube a:hover {
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
+    color: #BBBBBB;
+}
+
+.list-link li a:hover {
     color: #FFFFFF;
+    font-weight: bold;
 }
 
 .fancy {
